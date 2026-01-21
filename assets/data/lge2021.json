@@ -1,0 +1,44 @@
+[
+  {
+    "Party": "African National Congress (ANC)",
+    "Votes": 10729056,
+    "Percent": 45.6,
+    "Color": "#008000"
+  },
+  {
+    "Party": "Democratic Alliance (DA)",
+    "Votes": 5673238,
+    "Percent": 24.1,
+    "Color": "#005BAA"
+  },
+  {
+    "Party": "Economic Freedom Fighters (EFF)",
+    "Votes": 2635139,
+    "Percent": 11.1,
+    "Color": "#E71D36"
+  },
+  {
+    "Party": "Inkatha Freedom Party (IFP)",
+    "Votes": 1042292,
+    "Percent": 4.4,
+    "Color": "#F9A825"
+  },
+  {
+    "Party": "Freedom Front Plus (VF+)",
+    "Votes": 872743,
+    "Percent": 3.7,
+    "Color": "#FF6F00"
+  },
+  {
+    "Party": "ActionSA",
+    "Votes": 541560,
+    "Percent": 2.3,
+    "Color": "#43A047"
+  },
+  {
+    "Party": "Others",
+    "Votes": 780000,
+    "Percent": 8.8,
+    "Color": "#888"
+  }
+]

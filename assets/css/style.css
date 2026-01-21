@@ -1,0 +1,9 @@
+.sa-elections-offline, .sa-elections-v4-live { background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);max-width:900px;margin:12px auto;font-family:system-ui, -apple-system, 'Segoe UI', Roboto, Arial;color:#222; }
+.sa-elections-offline h3, .sa-elections-v4-live h3 { color:#b30000;margin:0 0 10px 0;font-size:18px; }
+.lge-table table { width:100%; border-collapse:collapse; }
+.lge-table th, .lge-table td { padding:8px;border-bottom:1px solid #eee; }
+.party-logo { width:34px;height:34px;border-radius:6px;vertical-align:middle;margin-right:8px; }
+.bar { height:10px;background:#f0f0f0;border-radius:6px;margin-top:6px;overflow:hidden; }
+.bar span { display:block;height:100%;background:linear-gradient(90deg,#b30000,#ff6b6b);width:0%;animation:grow 1.3s ease-out forwards; }
+@keyframes grow { from { width:0 } to { width: var(--w) } }
+@media (max-width:600px){ .party-logo{width:28px;height:28px} .lge-table th, .lge-table td{font-size:13px} } .footer{color:#666;margin-top:8px}

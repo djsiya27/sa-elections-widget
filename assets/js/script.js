@@ -1,0 +1,1 @@
+(function($){ $(function(){ /* placeholder for live widget JS */ }); })(jQuery);

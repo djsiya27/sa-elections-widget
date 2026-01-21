@@ -1,0 +1,13 @@
+.sa-elections-slider { display:flex;align-items:center;gap:12px;padding:10px;background:#0b5ed7;color:#fff;overflow:hidden;border-radius:6px; }
+.sa-elections-slider.light { background:linear-gradient(90deg,#0b5ed7,#5aa9ff); color:#fff; }
+.sa-elections-slider.dark { background:linear-gradient(90deg,#001f3f,#003366); color:#fff; }
+.sa-elections-slider .slider-region { font-weight:700;padding:6px 10px;border-radius:20px;background:rgba(255,255,255,0.08);margin-right:10px;white-space:nowrap; }
+.sa-elections-slider .slider-bars { display:flex;gap:10px;overflow:auto;padding-bottom:4px; }
+.sa-elections-slider .party { min-width:160px; background:rgba(255,255,255,0.06); padding:8px;border-radius:6px; display:flex; flex-direction:column; gap:6px; }
+.sa-elections-slider .party .logo { width:36px;height:36px;border-radius:6px; }
+.sa-elections-slider .party .meta { display:flex;justify-content:space-between;align-items:center;font-weight:600; }
+.sa-elections-slider .party .bar { height:8px;background:rgba(255,255,255,0.15);border-radius:6px;overflow:hidden; }
+.sa-elections-slider .party .bar span { display:block;height:100%;background:currentColor;width:0%;animation:grow 1.2s ease-out forwards; }
+.sa-elections-slider .party[data-party] { color: var(--party-color, #fff); }
+.sa-elections-slider .party .percent { opacity:0.95; }
+@media (max-width:600px){ .sa-elections-slider{padding:8px} .sa-elections-slider .party{min-width:140px} }
